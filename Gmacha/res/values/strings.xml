@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ChatActivity!</string>
+    <string name="app_name">G-macha</string>
+    <string name="session_error_mes">長時間操作がないためセッションが無効になりました。もう一度ログインしてください。</string>
+    
+</resources>

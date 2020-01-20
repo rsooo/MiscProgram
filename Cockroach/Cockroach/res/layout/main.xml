@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--             xmlns:ads="http://schemas.android.com/apk/lib/com.google.android.gms.ads"-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/framelayuout"
+    >
+<LinearLayout
+                 android:orientation="vertical"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:gravity="top|center"
+                 android:id="@+id/lineeradlayuout"
+            />
+
+
+<ImageView android:id="@+id/mainImageView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  android:background="@drawable/titleen"  ></ImageView>
+<!--  
+<ImageView android:id="@+id/mainImageView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  android:background="@drawable/sound" android:visibility="visible" ></ImageView>
+-->
+<jp.rsooo.app.cockroach.SimpleView android:id="@+id/sinpleView" android:layout_width="match_parent" android:layout_height="match_parent">
+</jp.rsooo.app.cockroach.SimpleView>
+
+
+
+<TextView android:text="HighScore:" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center"
+	android:textSize="24sp"  android:layout_marginBottom="20sp"
+></TextView>
+
+
+    <com.google.android.gms.ads.AdView android:id="@+id/adView"
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:layout_gravity="top|center"
+                                       ads:adUnitId="ca-app-pub-5965149896020203/2021232305"
+                                       ads:adSize="BANNER"
+
+                                       />
+
+    <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            />
+
+    <!-- sign-out button -->
+    <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signout"
+            android:layout_gravity="bottom|left"
+            android:visibility="gone" />
+
+    <Button
+            android:id="@+id/online_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ranking"
+            android:layout_gravity="bottom|right"
+           />
+
+</FrameLayout>

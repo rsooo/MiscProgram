@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:text="ようこそ" android:id="@+id/text_welcome" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button android:text="近くの人とチャット" android:id="@+id/btn_startchat" android:layout_width="match_parent" android:layout_height="wrap_content" />
+<Button android:text="Mapからチャット相手を選択" android:id="@+id/btn_selectmap" android:layout_width="match_parent" android:layout_height="wrap_content" />
+<Button android:text="設定" android:id="@+id/btn_config" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+<!--  <TextView android:text="debug" android:id="@+id/text_debug2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button android:text="Test" android:id="@+id/testbutton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+<CheckBox android:text="チャットの招待を許可" android:id="@+id/chechbox_invite" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:checked="true"></CheckBox>
+<CheckBox android:text="位置情報を公開" android:id="@+id/chechbox_publishlocation" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:checked="true"></CheckBox>
+-->
+<ImageView android:layout_width="fill_parent" android:id="@+id/imageView1" android:layout_height="match_parent" android:src="@drawable/mainpic" android:adjustViewBounds="true" android:scaleType="fitXY"></ImageView>
+	
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, hakomusu!</string>
+    <string name="app_name">HakoiriMusume</string>
+<string name="Start">開始</string>
+<string name="Title">HakoiriMusume</string>
+<string name="Rule">ルール</string>
+<string name="Rule2">ボード内のブロックを動かして、一番大きいブロックを下まで運べばクリアです</string>
+<string name="AmountTime">クリアまでの総時間  </string>
+<string name="tesi">手数: </string>
+<string name="minTesu">最短手数: </string>
+
+</resources>

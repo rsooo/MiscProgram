@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Cockroach!</string>
+    <string name="app_name">ゴキブリ退治</string>
+    <string name="exitdialog_title">終了</string>
+    <string name="exitdialog_message">タイトルへ戻りますか？</string>
+
+    <string name="signinneed">Googleにサインインが必要です。</string>
+    <string name="signout">サインアウト</string>
+    <string name="ranking">オンラインランキング</string>
+
+
+    <string name="app_id">875969909272</string>
+    <!-- for test
+        <string name="app_id">934918257221</string>
+    -->
+</resources>

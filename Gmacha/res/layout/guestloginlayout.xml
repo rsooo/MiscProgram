@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+
+<TextView android:text="名前" android:id="@+id/text_guestlogin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+ android:textColor="#AAAAAA"></TextView>
+<EditText android:id="@+id/guestnameedit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1"></EditText>
+ 
+  <TextView android:text="性別" android:id="@+id/text_guestlogin2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  <RadioGroup android:id="@+id/radiog_invitenear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+   <RadioButton android:text="男性" android:id="@+id/radiobtn_guestlogin_male" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+   <RadioButton android:text="女性" android:id="@+id/radiobtn_guestlogin_female" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+   <RadioButton android:text="回答しない" android:id="@+id/radiobtn_guestlogin_unknown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></RadioButton>
+  </RadioGroup>
+  <Button android:text="ログイン" android:id="@+id/btn_guestlogin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+  
+ 
+</LinearLayout>

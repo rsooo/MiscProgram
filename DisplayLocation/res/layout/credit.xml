@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+ xmlns:admob="http://schemas.android.com/apk/res/jp.rsooo.app"  
+ android:layout_height="match_parent" android:id="@+id/RelativeLayout01" android:layout_width="match_parent" 
+ android:orientation="vertical">
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="不具合・ご意見等がありましたら下記連絡先までお知らせください"
+    android:textSize="16sp" 
+    
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=" "
+    android:textSize="6sp"
+    android:background="#555555"
+/>
+<ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="wrap_content"></ListView>
+
+
+</LinearLayout>
+
+<LinearLayout 
+	android:id="@+id/admoblayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+
+<!-- old admob 
+<com.admob.android.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent" 
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        admob:backgroundColor="#000000"
+        admob:primaryTextColor="#FFFFFF"
+        admob:secondaryTextColor="#CCCCCC" 	
+    ></com.admob.android.ads.AdView>
+ -->
+
+</LinearLayout>
+    
+</RelativeLayout>

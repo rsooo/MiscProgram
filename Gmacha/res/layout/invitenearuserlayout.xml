@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+
+<TextView android:text="探したい範囲を選択してください" android:id="@+id/text_invitenear" android:layout_width="fill_parent" android:layout_height="wrap_content"
+ android:textColor="#AAAAAA"></TextView>
+ <Spinner android:id="@+id/spinner_changerange" android:layout_height="wrap_content" android:layout_width="match_parent"></Spinner>
+ <TextView android:text="性別を限定" android:id="@+id/text_invitenear2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  <RadioGroup android:id="@+id/radiog_invitenear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+   <RadioButton android:text="指定なし" android:id="@+id/radiobtn_invitenear_unknown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></RadioButton>
+   <RadioButton android:text="男性" android:id="@+id/radiobtn_invitenear_male" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+   <RadioButton android:text="女性" android:id="@+id/radiobtn_invitenear_female" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+  </RadioGroup>
+  <Button android:text="検索" android:id="@+id/btn_invitenear" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+  
+ 
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:textSize="32sp"
+    />
+    <TextView  
+    android:id="@+id/state"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="24sp"
+    />
+<Button android:text="発信地予測サービス起動" android:id="@+id/start" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="データ削除" android:id="@+id/drop" android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:visibility="gone"
+></Button>
+<Button android:text="発信地予測サービス終了" android:id="@+id/end" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<CheckBox android:text="端末起動時にサービス起動" android:id="@+id/bootcheck" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+</LinearLayout>

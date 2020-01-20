@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, hakomusu!</string>
+    <string name="app_name">HakoiriMusume</string>
+<string name="Start">Start</string>
+<string name="Title">HakoiriMusume</string>
+<string name="Rule">Rule</string>
+<string name="Rule2">Move blocks in the board. The goal is to carry the largest block to bottom area</string>
+<string name="AmountTime">total time until cleared  </string>
+<string name="tesi">step: </string>
+<string name="minTesu">minimum step: </string>
+
+</resources>

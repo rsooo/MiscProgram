@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">発信地予測</string>
+    <string name="app_name">発信地予測</string>
+<string name="startService">サービス起動</string>
+<string name="stopService">サービス停止</string>
+</resources>

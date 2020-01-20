@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/Title"
+    android:textSize = "28sp"
+    />
+<TextView android:text=" " android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"
+ 	android:textSize = "20sp" >
+</TextView>
+
+
+<TextView android:id="@+id/TextView01" android:text="@string/Rule" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:textSize = "16sp"
+></TextView>
+
+<TextView android:text=" " android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"
+ 	android:textSize = "6sp" >
+</TextView>
+
+
+<TextView android:id="@+id/TextView02" android:text="@string/Rule2" android:layout_width= "wrap_content" android:layout_height="wrap_content"
+    android:textSize = "12sp" >
+</TextView>
+
+
+<ImageView android:id="@+id/ImageView01" android:visibility="visible" android:layout_gravity="center_horizontal" android:layout_height="200sp" android:background="@drawable/ss" android:layout_width="150sp"></ImageView><Button android:id="@+id/start" android:text="@string/Start" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="100sp"></Button>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+ <ScrollView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/scrollView1">
+  <LinearLayout android:id="@+id/scrollinnerlayout" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        
+
+  <TextView android:text="ユーザ名を英字、数字またアンダースコアで入力してください。" android:id="@+id/signuptext" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  <EditText android:text="" android:id="@+id/newusername2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="UserName"  android:inputType="textEmailAddress"/>
+  <TextView android:text="メールアドレスを入力してください。" android:id="@+id/signuptext2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  <EditText android:text="" android:id="@+id/mail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="メールアドレス" android:inputType="textEmailAddress" />
+  <Button android:text="アカウントからメールアドレスを取得" android:id="@+id/btn_getmailaddress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+  <!--  <EditText android:text="" android:id="@+id/mail2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="メールアドレス(確認)" android:inputType="text" /> -->
+  <TextView android:text="ニックネームを入力してください(チャット時に箱の名前が表示されます:最大8文字)" android:id="@+id/signuptext4" android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+  <EditText android:text="" android:id="@+id/nickname" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="" android:inputType="text" android:maxLength="8"/>
+  <TextView android:text="性別を入力してください。" android:id="@+id/signuptext3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  <RadioGroup android:id="@+id/radiog_sex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+   <RadioButton android:text="男性" android:id="@+id/radiobtn_male" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+   <RadioButton android:text="女性" android:id="@+id/radiobtn_female" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+   <RadioButton android:text="回答しない" android:id="@+id/radiobtn_unknown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"></RadioButton>
+  </RadioGroup>
+  
+  <Button android:text="登録" android:id="@+id/btn_execsignup2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+ </LinearLayout>
+</ScrollView>
+
+
+<!--
+<TextView android:text="位置情報取得:NG" android:id="@+id/locationflag" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="debug" android:id="@+id/text_debug" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button android:text="debug" android:id="@+id/btn_debug" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="新規登録" android:id="@+id/signup" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+-->
+</LinearLayout>

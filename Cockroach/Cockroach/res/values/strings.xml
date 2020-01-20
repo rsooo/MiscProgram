@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Cockroach!</string>
+	<string name="app_name">Cockroach Hunt</string>
+	<string name="exitdialog_title">Confirm</string>
+	<string name="exitdialog_message">Back to Title?</string>
+
+    <string name="signinneed">You need to Sign-in.</string>
+
+    <string name="signout">Sign Out</string>
+    <string name="ranking">Online Ranking</string>
+
+    <string name="app_id">875969909272</string>
+<!-- for test
+    <string name="app_id">934918257221</string>
+-->
+
+</resources>
