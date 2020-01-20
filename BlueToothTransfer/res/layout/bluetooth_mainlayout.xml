@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+ xmlns:admob="http://schemas.android.com/apk/res/jp.rsooo.app.bluetransfer"  
+ android:layout_height="match_parent" android:id="@+id/RelativeLayout01" android:layout_width="match_parent" 
+ android:orientation="vertical">
+ <!-- <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/jp.rsooo.app.bluetransfer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	android:layout_weight="1"></WebView>
+    <com.admob.android.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent" 
+        android:layout_height="48dp"
+        app:backgroundColor="#000000"
+        app:primaryTextColor="#FFFFFF"
+        app:secondaryTextColor="#CCCCCC"
+    ></com.admob.android.ads.AdView>
+</LinearLayout>
+ -->
+ 	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:layout_height="match_parent" android:layout_above="@+id/LinearLayoutFooter"
+		/>
+		
+		
+
+<LinearLayout android:id="@+id/LinearLayoutFooter" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+
+
+<TableLayout android:layout_height="wrap_content" android:id="@+id/TableLayout02" android:layout_width="match_parent" >
+<Button android:text="@string/mainlayout_prefbutton" android:id="@+id/prefButton" android:layout_width="match_parent" android:layout_height="wrap_content" ></Button>
+
+<TableRow android:id="@+id/TableRow01" android:layout_width="match_parent" android:layout_height="wrap_content">
+<Button android:text="@string/mainlayout_send" android:id="@+id/sendButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+<Button android:text="@string/mainlayout_receive" android:id="@+id/receiveButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" ></Button>
+
+</TableRow>
+<TableRow android:id="@+id/admob" android:layout_width="match_parent" android:layout_height="wrap_content">
+</TableRow>
+
+<LinearLayout android:id="@+id/LinearLayout_admob" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+   <!--  old admob 
+   <com.admob.android.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent" 
+        android:layout_height="48dp"
+        admob:backgroundColor="#000000"
+        admob:primaryTextColor="#FFFFFF"
+        admob:secondaryTextColor="#CCCCCC" 	
+    ></com.admob.android.ads.AdView>
+    -->
+</LinearLayout>
+
+<!--  >
+<LinearLayout android:id="@+id/LinearLayout_adlantis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone">
+<jp.Adlantis.Android.AdlantisView
+    android:id="@+id/adView"
+    android:layout_width="fill_parent" 
+    android:layout_height="48dp"
+    android:layout_weight="1"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true" 
+    android:gravity="center"
+     />
+</LinearLayout>
+-->
+</TableLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

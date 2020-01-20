@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <PreferenceCategory   
+    android:title="@string/pref_cate1">  
+    <EditTextPreference   
+      android:key="DEVICE"  
+      android:title="@string/pref_title_device"   
+      android:summary="@string/pref_summary_device"  
+      android:dialogMessage="@string/pref_dialogm_device"   
+      android:dialogTitle="@string/pref_dialogt_device"
+      />  
+   
+  </PreferenceCategory>  
+
+<PreferenceCategory   
+    android:title="@string/pref_cate2">  
+    <EditTextPreference   
+      android:key="NAME"  
+      android:title="@string/pref_title_name"   
+      android:summary="@string/pref_summary_name"  
+      android:dialogMessage="@string/pref_dialogm_name"   
+      android:dialogTitle="@string/pref_dialogt_name"
+      />  
+      <EditTextPreference   
+      android:key="PHONE"  
+      android:title="@string/pref_title_phone"   
+      android:summary="@string/pref_summary_phone"  
+      android:dialogMessage="@string/pref_dialogm_phone"   
+      android:dialogTitle="@string/pref_dialogt_phone"
+      />  
+      <EditTextPreference   
+      android:key="MAIL"  
+      android:title="@string/pref_title_mail"   
+      android:summary="@string/pref_summary_mail"  
+      android:dialogMessage="@string/pref_dialogm_mail"   
+      android:dialogTitle="@string/pref_dialogt_mail"
+      />  
+      
+  </PreferenceCategory>  
+
+</PreferenceScreen>

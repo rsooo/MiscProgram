@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BlueToothTransfer!</string>
+    <string name="app_name">Contact Exchange</string>
+
+<!-- 
+<string name="connect">connect</string>
+<string name="discoverable">discoverable</string>
+<string name="title_paired_devices">paired_devices</string>
+<string name="title_other_devices">other_devices</string>
+<string name="button_scan">scan</string>
+<string name="none_paired">none_paired</string>
+<string name="scanning">scanning...</string>
+ -->
+ 
+     <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Contact test</string>
+    <string name="discoverable">Make discoverable</string>
+	
+	<!-- Original_appname -->
+	<string name="app_name_main">Contact Exchange via Bluetooth</string>
+	<string name="app_name_client">Sending</string>
+	<string name="app_name_server">Receiving</string>
+	<string name="app_name_preferencemain">Preference</string>
+	
+	
+	<!-- Original -->
+	<string name="ok">OK</string>
+	
+	<!-- Original_MainLayout -->
+	<string name="mainlayout_prefbutton">Change Contact</string>
+	<string name="mainlayout_send">Send</string>
+	<string name="mainlayout_receive">Receive</string>
+	
+	
+	<!-- Original_Preference -->
+	<string name="pref_title_device">Device Name</string>
+	<string name="pref_title_name">Name</string>
+	<string name="pref_title_phone">Number</string>
+	<string name="pref_title_mail">Address</string>
+	
+	
+	<string name="pref_cate1">端末情報</string>
+	<string name="pref_cate2">個人情報</string>
+	<string name="pref_summary_device"></string>
+	<string name="pref_dialogm_device">新しい端末名(受信側の画面に表示)</string>
+	<string name="pref_dialogt_device">端末名の入力</string>
+	
+	<string name="pref_summary_name"></string>
+	<string name="pref_dialogm_name">名前を入力して下さい</string>
+	<string name="pref_dialogt_name">名前の入力</string>
+
+	<string name="pref_summary_phone"></string>
+	<string name="pref_dialogm_phone">電話番号を入力して下さい</string>
+	<string name="pref_dialogt_phone">電話番号の入力</string>
+		
+	<string name="pref_summary_mail"></string>
+	<string name="pref_dialogm_mail">メールアドレスを入力して下さい</string>
+	<string name="pref_dialogt_mail">メールアドレスの入力</string>
+	
+	<!-- Device List -->
+	<string name="device_now_searching">Searching..</string>
+	<string name="device_not_found">Not found any devices</string>
+	
+	<!-- Dialog Message in Main Menu-->
+	<string name="dialogmsg_noBt">Bluetooth is not supported on your device</string>
+	<string name="dialogmsg_btDisable">Please turn on Bluetooth on your device</string>
+	<string name="dialogmsg_noContact">Please select contact you want to send</string>
+
+	<!-- Dialog Message in Server activity-->
+	<string name="dialogmsg_no_dicoverable">Make your device discoverable</string>
+	
+	<!-- Client Activity -->
+	<string name="client_send_complete">Complete sending</string>
+	
+	
+	<!-- Server Activity -->
+	<string name="server_waiting"> wait receiving...</string>
+	<string name="server_receive_complete">Complete Receiving</string>
+			
+	
+</resources>
